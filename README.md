@@ -1,19 +1,22 @@
 # DreamLine Gallery
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Nosso objetivo inclui facilitar a comunicação entre clientes e artistas, com todas redes sociais do artista agrupadas em apenas um lugar;
+Promover uma maior divulgação de artistas, estilos e estúdios de tatuagem;
+Facilitar a escolha de elementos e inspirações para as tatuagens;
+Encontrar artistas de determinados estilos de forma mais rápida e dinâmica.
 
 ## Alunos integrantes da equipe
 
 * Kelvin Lemos dos Santos
 * Ana Giulia Ferreira de Abreu
 * Pedro Henrique Nascimento Mendes
-* Bernardo
-* Julio Cesar
-* Giovani
+* Bernardo Oliveira Alcântara Rodrigues
+* Júlio César de Ávila Silva
+* Giovanni Campra Ferreira Vianna
 
 ## Professores responsáveis
 
-* Katia
+* Katia Adriana Alves Leite de Barros
 * Pedro
 
 ## Instruções de utilização
