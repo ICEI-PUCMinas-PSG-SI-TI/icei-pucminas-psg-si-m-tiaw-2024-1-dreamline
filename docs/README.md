@@ -19,6 +19,10 @@ O template para o site é estruturado e permite que a equipe evolua a documenta�
 Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
 
 ## Problema
+Como relatado anteriormente, um dos maiores problemas enfrentados pelas pessoas que buscam se tatuar e tatuar outras pessoas é a falta de orientação e comunicação quanto às indicações, artistas, estilos, estúdios qualificados, entre outros. Isto é, a dificuldade de se comunicar com os artistas/estúdio, encontrar informações que melhor se enquadram nas expectativas do cliente e a escassez de recursos adequados e efetivos para a divulgação de portfólios e informações é um problema que deve ser resolvido.
+
+
+
 
 Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
 
@@ -32,7 +36,13 @@ Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Think
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo principal desse projeto está direcionado a criação de uma plataforma dinâmica e organizada de portfólios, elementos de tatuagem e informações importantes sobre o artista e/ou estúdio.
+ 
+Como objetivos específicos, podemos ressaltar:
+Facilitar a comunicação entre clientes e artistas, com as todas as redes sociais do artista agrupadas em apenas um lugar;
+Promover uma maior divulgação de artistas, estilos e estúdios de tatuagem;
+Facilitar a escolha de elementos e inspirações para as tatuagens;
+Achar artistas de determinados estilos de forma mais rápida e dinâmica.
 
 **Links Úteis**:
 
@@ -40,9 +50,7 @@ Aqui você deve descrever os objetivos do trabalho indicando que o objetivo gera
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+De acordo com o site “Terra”, no Brasil, país que ocupa a 9ª posição entre as nações mais tatuadas, o setor teve resultados ainda maiores, com crescimento de 50% em 2020, segundo dados da Associação Nacional dos Tatuadores. Com o mercado cada vez mais rico, é importante a existência de um site que facilite e categorize os produtos e serviços, organizando essa alta demanda de maneira simples e efetiva, além de filtrar tatuadores qualificados e competentes para exercer um bom trabalho.
 
 **Links Úteis**:
 
@@ -50,9 +58,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
+As tatuagens são exemplo assíduo de expressão e qualquer pessoa que se sinta bem com esse tipo de arte deve ter o direito de desfrutar dele. O foco principal deste trabalho são pessoas na faixa etária acima de 16 anos, independentemente do gênero, que tenham interesse em fazer alguma tatuagem, tanto como cliente como tatuador, e saber a fundo de todas as informações que precisa para realizar um trabalho com segurança e qualidade.
 
 **Links Úteis**:
 
