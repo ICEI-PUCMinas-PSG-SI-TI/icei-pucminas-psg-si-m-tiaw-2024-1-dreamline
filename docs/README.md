@@ -28,11 +28,7 @@ Nesse momento você deve apresentar o problema que a sua aplicação deve resolv
 
 Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-**Links Úteis**:
 
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -44,48 +40,180 @@ Promover uma maior divulgação de artistas, estilos e estúdios de tatuagem;
 Facilitar a escolha de elementos e inspirações para as tatuagens;
 Achar artistas de determinados estilos de forma mais rápida e dinâmica.
 
-**Links Úteis**:
 
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
 De acordo com o site “Terra”, no Brasil, país que ocupa a 9ª posição entre as nações mais tatuadas, o setor teve resultados ainda maiores, com crescimento de 50% em 2020, segundo dados da Associação Nacional dos Tatuadores. Com o mercado cada vez mais rico, é importante a existência de um site que facilite e categorize os produtos e serviços, organizando essa alta demanda de maneira simples e efetiva, além de filtrar tatuadores qualificados e competentes para exercer um bom trabalho.
 
-**Links Úteis**:
 
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 As tatuagens são exemplo assíduo de expressão e qualquer pessoa que se sinta bem com esse tipo de arte deve ter o direito de desfrutar dele. O foco principal deste trabalho são pessoas na faixa etária acima de 16 anos, independentemente do gênero, que tenham interesse em fazer alguma tatuagem, tanto como cliente como tatuador, e saber a fundo de todas as informações que precisa para realizar um trabalho com segurança e qualidade.
 
-**Links Úteis**:
 
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
 
-**Links Úteis**:
+Leandro Guerreiro
+Idade: 35
+Ocupação: Tatuador
+Aplicativos: Instagram, Flipboard, Linkedin .
+Motivações: Conhecer o mundo o mundo;
+Ganhar dinheiro com tatuagem.
+Frustrações: Interferir no seu estilo de tatuagem;
+Ficar apressado durante a sessão.
+Hobbies Desenhar e praticar esportes.
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+
+ 
+Hugo Perdigotto
+Idade: 26
+Ocupação: Tatuador
+Aplicativos: Facebook, Linkedin, Twitter.
+Motivações: Aperfeiçoar o seu trabalho;
+Ser bem sucedido no seu trabalho;
+Frustrações: Clientes arrogantes;
+Falta de educação com as outras pessoas.
+Hobbies: Desenhar, andar de bicicleta e cozinhar.
+
+
+ 
+Flávia Rocha
+Idade: 23
+Ocupação: Estudante
+Aplicativos: Facebook, Instagram e Discord.
+Motivações: Viajar pelo mundo;
+Conhecer mais pessoas e ter experiências novas.
+Frustrações
+Informações falsas;
+Estúdios mal estruturados;
+Hobbies
+Gosta de fazer trilha;
+
+
+ 
+João Paulo Silva
+Idade: 25
+Ocupação: Gerente de Marketing 
+Aplicativos: Facebook e Instagram
+Motivações: Viajar com uma moto pelo país.
+Frustrações: Sites que não tem praticidade
+Hobbies: Andar de bike e pintar quadros
+   
+ 
+Valdecir Carrasco
+Idade: 54
+Ocupação: Barman no clube de moto.
+Aplicativos: Facebook, Instagram e aplicativos de bancos.
+Motivações: Comprar uma Harley Davidson
+Frustrações: Sites confusos
+Hobbies: Andar de moto e frequentar academia
+   
+
+
+Gabriel Carvalho
+Idade: 25
+Ocupação: Tatuador e tem seu próprio estúdio de tatuagem.
+Aplicativos: Instagram, WhatsApp e Pinterest.
+Motivações: Quer ser reconhecido. Quer viajar o mundo.
+Frustrações: Já foi enganado por clientes. Tem problemas para captar clientes.
+Hobbies: Fazer grafite e tocar numa banda.
+
+
+
+
 
 ## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+Leandro Guerreiro
+Descobrir novos estilos de tatuagem e se conectar com mais artistas.
+Para expandir as conexões e contatos com clientes e artistas além de aumentar o número de trabalhos.
 
-**Links Úteis**:
+Hugo Perdigotto
+Divulgar seu trabalho como tatuador.
+Quer crescer na área e aumentar o número de clientes.
 
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+Flávia Rocha
+Encontrar tatuadores profissionais e de qualidade.
+Deseja fazer uma nova tatuagem com segurança e garantia de que nada dê errado;
+
+João Paulo Silva
+Encontrar novas pessoas e ter novas experiências.
+Conhecer novos estilos de tatuagem.
+
+Valdecir Carrasco
+Conhecer novos tatuadores 
+Para abrir um estúdio de tatuagem ao lado do bar onde trabalha.
+
+Gabriel Carvalho
+Descobrir novos estilos de tatuagem e se conectar com outros artistas.
+Para aumentar e expandir os contatos com clientes e artistas, além de aumentar o número de clientes.
+
+
+
 
 ## Requisitos
+
+Requisitos Funcionais
+
+RF-01
+O site deve apresentar, para cada categoria, imagens correspondentes ao assunto apresentado.
+
+RF-02
+O site deve permitir ao usuário visualizar todas as informações do artista, como endereço
+
+RF-03
+O site deve oferecer um menu adicional que permita ao usuário visualizar as categorias.
+
+RF-04
+O site deve apresentar uma página de cadastro para o usuário.
+
+RF-05
+O usuário deve poder fazer login no sistema usando seu nome de usuário e senha.
+
+RF-06
+O site deve permitir visualizar as informações de contatos do mantenedor do site
+
+RF-07
+O site deve permitir visualizar os links para acessar as outras redes dos artistas
+
+RF-08
+O site deve permitir o tatuador a carregar imagens de determinada categoria.
+
+RF-09
+O site deve permitir salvar notícias preferidas
+
+RF-10
+O site permite ao cliente e ao artista adicionar uma foto de perfil.
+
+RF-11
+O site permite que o cliente consiga abrir e baixar fotos localmente
+
+RF-12
+O site deve permitir que usuários possam avaliar os artistas.
+
+RF-13
+O site deve exibir a avaliação do usuário sobre determinado artista.
+
+Requisitos Não Funcionais
+
+RNF-01
+O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);
+
+RNF-02
+O site deverá ser responsivo permitindo a visualização em um celular de forma adequada
+
+RNF-03
+O site deve ter boa aparência e bom contraste de cores
+
+RNF-04
+O site deve ser compatível com o Google Chrome, Firefox, Microsoft Edge.
+
+
+
 
 Os requisitos de um projeto são classificados em dois grupos:
 
@@ -96,42 +224,42 @@ Os requisitos de um projeto são classificados em dois grupos:
 
 Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-**Links Úteis**:
 
-- [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-- [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## User Flow
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-**Links Úteis**:
 
-- [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-- [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-- [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Wireframes
 
 Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
 
-**Links Úteis**:
-
-- [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-- [Figma](https://www.figma.com/)
-- [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-- [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
+- [Wireframes DreamLine](https://www.figma.com/file/UBDCLquZVHcKe3uycdfLxm/TIAW-Final?type=design&node-id=0%3A1&mode=design&t=EqPvXU8lbuTcW9Ko-1)
 
 ## Gestão de Projetos
 
- Nesta parte do documento, você deve apresentar  o processo de trabalho baseado nas metodologias ágeis, a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a gestão de configuração do projeto via GitHub.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+A equipe está organizada da seguinte maneira:
+Scrum Master: Kelvin Lemos dos Santos
+Product Owner: Ana Giulia Ferreira de Abreu
+Equipe de Desenvolvimento
+Pedro Henrique Nascimento Mendes (Desenvolvedor)
+Bernardo Oliveira Alcântara Rodrigues(Desenvolvedor)
+Júlio César de Ávila Silva (Desenvolvedor)
+Giovanni Campra Ferreira Vianna (Desenvolvedor)
 
-**Links Úteis**:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
 
-- [Sobre Projects - GitHub Docs](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [Gestão de projetos com GitHub | balta.io](https://balta.io/blog/gestao-de-projetos-com-github)
-- [(460) GitHub Projects - YouTube](https://www.youtube.com/playlist?list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H)
-- [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-- [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Recursos: Esta lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+Backlog: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+Para Fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+Fazendo: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+Teste: Checagem de Qualidade. Quando as tarefas são concluídas, elas são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+Feito: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Bloqueado: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
+- [Gestão pelo Trello](https://trello.com/b/vsufAQyg/tiaw-kanban)
+
