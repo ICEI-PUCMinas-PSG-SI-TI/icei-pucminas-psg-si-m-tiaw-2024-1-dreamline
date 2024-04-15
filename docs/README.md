@@ -218,7 +218,7 @@ O site deve ser compatível com o Google Chrome, Firefox, Microsoft Edge.
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
 
-- [UserFlow DreamLine(https://www.figma.com/file/UBDCLquZVHcKe3uycdfLxm/TIAW-Final?type=design&node-id=0-1&mode=design&t=hDA8MvbpLlGzfzVa-0)
+- [UserFlow DreamLine](https://www.figma.com/file/UBDCLquZVHcKe3uycdfLxm/TIAW-Final?type=design&node-id=0-1&mode=design&t=hDA8MvbpLlGzfzVa-0)
 
 ## Wireframes
 
