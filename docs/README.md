@@ -57,7 +57,7 @@ As tatuagens são exemplo assíduo de expressão e qualquer pessoa que se sinta 
 ## Personas
 
 
-Leandro Guerreiro
+### Leandro Guerreiro
 Idade: 35
 Ocupação: Tatuador
 Aplicativos: Instagram, Flipboard, Linkedin .
