@@ -81,7 +81,7 @@ Hobbies: Desenhar, andar de bicicleta e cozinhar.
 
 
  
-Flávia Rocha
+# Flávia Rocha
 Idade: 23
 Ocupação: Estudante
 Aplicativos: Facebook, Instagram e Discord.
@@ -95,7 +95,7 @@ Gosta de fazer trilha;
 
 
  
-João Paulo Silva
+# João Paulo Silva
 Idade: 25
 Ocupação: Gerente de Marketing 
 Aplicativos: Facebook e Instagram
@@ -104,7 +104,7 @@ Frustrações: Sites que não tem praticidade
 Hobbies: Andar de bike e pintar quadros
    
  
-Valdecir Carrasco
+# Valdecir Carrasco
 Idade: 54
 Ocupação: Barman no clube de moto.
 Aplicativos: Facebook, Instagram e aplicativos de bancos.
@@ -114,7 +114,7 @@ Hobbies: Andar de moto e frequentar academia
    
 
 
-Gabriel Carvalho
+# Gabriel Carvalho
 Idade: 25
 Ocupação: Tatuador e tem seu próprio estúdio de tatuagem.
 Aplicativos: Instagram, WhatsApp e Pinterest.
@@ -128,27 +128,27 @@ Hobbies: Fazer grafite e tocar numa banda.
 
 ## Histórias de Usuários
 
-Leandro Guerreiro
+# Leandro Guerreiro
 Descobrir novos estilos de tatuagem e se conectar com mais artistas.
 Para expandir as conexões e contatos com clientes e artistas além de aumentar o número de trabalhos.
 
-Hugo Perdigotto
+# Hugo Perdigotto
 Divulgar seu trabalho como tatuador.
 Quer crescer na área e aumentar o número de clientes.
 
-Flávia Rocha
+# Flávia Rocha
 Encontrar tatuadores profissionais e de qualidade.
 Deseja fazer uma nova tatuagem com segurança e garantia de que nada dê errado;
 
-João Paulo Silva
+# João Paulo Silva
 Encontrar novas pessoas e ter novas experiências.
 Conhecer novos estilos de tatuagem.
 
-Valdecir Carrasco
+# Valdecir Carrasco
 Conhecer novos tatuadores 
 Para abrir um estúdio de tatuagem ao lado do bar onde trabalha.
 
-Gabriel Carvalho
+# Gabriel Carvalho
 Descobrir novos estilos de tatuagem e se conectar com outros artistas.
 Para aumentar e expandir os contatos com clientes e artistas, além de aumentar o número de clientes.
 
@@ -157,7 +157,7 @@ Para aumentar e expandir os contatos com clientes e artistas, além de aumentar 
 
 ## Requisitos
 
-Requisitos Funcionais
+# Requisitos Funcionais
 
 RF-01
 O site deve apresentar, para cada categoria, imagens correspondentes ao assunto apresentado.
@@ -198,7 +198,7 @@ O site deve permitir que usuários possam avaliar os artistas.
 RF-13
 O site deve exibir a avaliação do usuário sobre determinado artista.
 
-Requisitos Não Funcionais
+# Requisitos Não Funcionais
 
 RNF-01
 O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);
@@ -211,18 +211,6 @@ O site deve ter boa aparência e bom contraste de cores
 
 RNF-04
 O site deve ser compatível com o Google Chrome, Firefox, Microsoft Edge.
-
-
-
-
-Os requisitos de um projeto são classificados em dois grupos:
-
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
-
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 
 
