@@ -2,7 +2,6 @@ const urlParametros = new URLSearchParams(window.location.search);
 const cat = urlParametros.get('categoria');
 window.onload = function () {
    
-
     // Verificar se o ID foi fornecido
     if (cat = null) {
        console.log("Estilo não encontrado.")
@@ -34,7 +33,6 @@ async function getJSONServer() {
 
         let cardsHTML = '';
         
-
         for (let item of data) {
             cardsHTML += `
             <a class="link-underline link-underline-opacity-0" href="/json/Julio/port.html?id=${item.id}">
