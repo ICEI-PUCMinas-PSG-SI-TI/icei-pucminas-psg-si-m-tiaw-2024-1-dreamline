@@ -251,3 +251,528 @@ Bloqueado: Quando alguma coisa impede a conclusão da tarefa, ela é movida para
 
 - [Gestão pelo Trello](https://trello.com/b/vsufAQyg/tiaw-kanban)
 
+## Implementação da Solução
+
+A seguir serão apresentados os detalhes técnicos da solução do problema em questão. Nessa parte do da documentação constam as estruturas de dados e as telas já implementadas.
+
+## Arquitetura da Solução
+
+Na arquitetura de solução serão apresentadas as estruturas utilizadas para o desenvolvimento e conclusão do projeto elaborado.
+
+## Diagrama de Componentes
+
+A solução implementada conta com os seguintes módulos: 
+Navegador - Interface básica do sistema  
+Páginas Web - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema. 
+Local Storage - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:  
+Informações do usuário - informações internas como id e informações pessoais como login, senha, redes sociais, entre outros.
+JSONServer - armazenamento de dados gerais do site. 
+Hospedagem (Vercel) - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
+
+## Hospedagem 
+
+O site utiliza a plataforma do Vercel como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:  
+https://dream-line-galery.vercel.app/index.html 
+
+## Template do Site
+
+O template criado está disponível no link figma e é composto pelos seguintes layouts:  
+Tela principal 
+Tela de estilos 
+Tela de login
+Tela de cadastro
+Tela de perfil
+Tela de portfólio
+Tela de sobre
+ 
+A responsividade segue o padrão do Bootstrap
+
+## Tela Principal 
+
+Tela que abrange todas as visualizações iniciais do site, um acesso às informações sobre os criadores e um acesso para a página de inspirações.
+
+## Tela de estilos
+Essa tela tem função de catalogar todos os artistas de determinado estilo em um só lugar.
+
+## Tela de login
+Tela onde usuários já logados conseguem entrar em seus perfis de forma rápida e dinâmica.
+
+## Tela de cadastro
+Este layout é utilizado para que novos usuários possam se cadastrar e usufruir de funcionalidades do próprio site, como poder avaliar os artistas que já visitou e se tatuou.
+
+## Tela de perfil
+Nesse layout consta o perfil do tatuador que podem ser inseridas várias imagens de trabalhos anteriores, biografia, redes sociais, endereço do estúdio entre outros. 
+
+## Tela de portfólio
+Ao escolher um artista que deseja contratar, o usuário é redirecionado para essa tela, onde constam todas as informações do tatuador, como seus trabalhos e redes sociais. 
+
+## Tela de sobre
+Este layout é utilizado para mostrar de onde veio a história do site e falando sobre sua criação. 
+
+## Funcionalidades do Sistema (Telas) 
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. Orientações de acesso são apresentadas na sequência. 
+
+## Visualização de Estilos (RF-01 e RF-06) 
+Aluno responsável: Kelvin Lemos 
+Link do código: http:/// 
+O requisito apresentado é uma parte da tela principal, que mostra os estilos disponíveis no site para que o usuário possa escolher qual mais o agrada. Os estilos são armazenados no JSONServer com estruturas baseadas em JSON. Além disso, estão disponíveis os contatos com o atendimento ao cliente no rodapé, caso surja alguma questão a ser resolvida.
+
+## Requisitos atendidos 
+RF - 01 -  O site deve apresentar, para cada categoria, imagens correspondentes ao assunto apresentado.
+RF - 06 - O site deve permitir visualizar as informações de contatos do mantenedor do site
+ 
+## Artefatos da funcionalidade 
+index.html 
+script.js
+style.css
+logo.jpg
+estiloneotrad.jpg
+japonestradicional.jpg
+blackwork.jpg
+
+## Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "1",
+      "nome": "Carol Costa",
+      "email": "usuario1@gmail.com",
+      "senha": "151515",
+      "estudio": "Mestre Tattoo",
+      "nascimento": "1995-05-15",
+      "bio": "Gabi Costa é uma tatuadora especializada em estilo Neo Trad. Com anos de experiência, ela é responsável por eternizar qualquer animalzinho na sua pele! Além de dominar a anatomia dos bichinhos,ela emprega belíssimas cores em suas obras!",
+      "end": "Av. das indústrias - 350, Vila Olga / Santa Luzia - MG",
+      "exp": "Experiência em Neo Trad, tatuagens de animais e tatuagens coloridas.",
+      "whats": "https://www.whatsapp.com",
+      "insta": "https://www.instagram.com",
+      "tipo": "cliente",
+      "categoria": "Neo Trad",
+      "estrelas": "5",
+      "fotoperfil": "imgs/medium-shot-smiley-tattoo-artist-indoors.jpg",
+      "fotos": [
+        "/json/Julio/imgs/Old-School-Tattoos-The-Ink-Factory-5.jpg",
+        "imgs/hand-neo-1160x1431.jpg",
+        "imgs/gypsy-oldschool-tattoo.jpg",
+        "https://img.freepik.com/fotos-gratis/foto-de-foco-seletivo-da-mao-de-um-tatuador-usando-uma-luva-preta-e-segurando-uma-arma-de-tatuagem_181624-21033.jpg?t=st=1719055098~exp=1719058698~hmac=bac10f9e06eca6475d4c1849399e6b8abc5f8f7e11559a5014f93fde3225fb4f&w=360"
+      ]
+    }
+  ]
+} 
+## Instruções de acesso 
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+## Página de Portfólio (RF-02, RF-07, RF-11, RF-12) 
+Aluno responsável:  Júlio César Ávila
+Link do código: http:/// 
+A tela apresentada mostra todas as informações necessárias para entrar em contato com o artista, além de conseguir ver as avaliações e portfólio do tatuador. Os dados são armazenados no JSONServer com estruturas baseadas em JSON. 
+  
+## Requisitos atendidos 
+RF - 02 -  O site deve apresentar, para cada categoria, imagens correspondentes ao assunto apresentado.
+RF - 07 - O site deve permitir visualizar os links para acessar as outras redes dos artistas.
+RF - 11 - O site deve permitir que usuários possam avaliar os artistas.
+RF - 12 - O site deve exibir a avaliação do usuário sobre determinado artista.
+
+## Artefatos da funcionalidade 
+index.html 
+script.js
+style.css
+logo.jpg
+(imagens obtidas a partir do JSONServer)
+ 
+## Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "1",
+      "nome": "Carol Costa",
+      "email": "usuario1@gmail.com",
+      "senha": "151515",
+      "estudio": "Mestre Tattoo",
+      "nascimento": "1995-05-15",
+      "bio": "Gabi Costa é uma tatuadora especializada em estilo Neo Trad. Com anos de experiência, ela é responsável por eternizar qualquer animalzinho na sua pele! Além de dominar a anatomia dos bichinhos,ela emprega belíssimas cores em suas obras!",
+      "end": "Av. das indústrias - 350, Vila Olga / Santa Luzia - MG",
+      "exp": "Experiência em Neo Trad, tatuagens de animais e tatuagens coloridas.",
+      "whats": "https://www.whatsapp.com",
+      "insta": "https://www.instagram.com",
+      "tipo": "cliente",
+      "categoria": "Neo Trad",
+      "estrelas": "5",
+      "fotoperfil": "imgs/medium-shot-smiley-tattoo-artist-indoors.jpg",
+      "fotos": [
+        "/json/Julio/imgs/Old-School-Tattoos-The-Ink-Factory-5.jpg",
+        "imgs/hand-neo-1160x1431.jpg",
+        "imgs/gypsy-oldschool-tattoo.jpg",
+       "https://img.freepik.com/fotos-gratis/foto-de-foco-seletivo-da-mao-de-um-tatuador-usando-uma-luva-preta-e-segurando-uma-arma-de-tatuagem_181624-21033.jpg?t=st=1719055098~exp=1719058698~hmac=bac10f9e06eca6475d4c1849399e6b8abc5f8f7e11559a5014f93fde3225fb4f&w=360"
+      ]
+    }
+  ]
+} 
+## Instruções de acesso
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+# Página de estilos (RF-03) 
+Aluno responsável: Ana Giulia Ferreira
+Link do código: http:/// 
+A tela apresentada é uma continuação da tela principal, que mostra os artistas e estúdios disponíveis e cadastrados em determinado estilo. Os dados dos usuários são armazenados no JSONServer com estruturas baseadas em JSON. Um exemplo da tela é apresentado na figura.  
+ 
+ 
+# Requisitos atendidos 
+RF - 03 -  O site deve oferecer um menu adicional que permita ao usuário visualizar as categorias.
+ 
+# Artefatos da funcionalidade 
+index.html 
+script.js 
+style.css 
+logo.jpg
+(imagens obtidas a partir do JSONServer)  
+#Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "1",
+      "nome": "Carol Costa",
+      "email": "usuario1@gmail.com",
+      "senha": "151515",
+      "estudio": "Mestre Tattoo",
+      "nascimento": "1995-05-15",
+      "bio": "Gabi Costa é uma tatuadora especializada em estilo Neo Trad. Com anos de experiência, ela é responsável por eternizar qualquer animalzinho na sua pele! Além de dominar a anatomia dos bichinhos,ela emprega belíssimas cores em suas obras!",
+      "end": "Av. das indústrias - 350, Vila Olga / Santa Luzia - MG",
+      "exp": "Experiência em Neo Trad, tatuagens de animais e tatuagens coloridas.",
+      "whats": "https://www.whatsapp.com",
+      "insta": "https://www.instagram.com",
+      "tipo": "cliente",
+      "categoria": "Neo Trad",
+      "estrelas": "5",
+"fotoperfil": "imgs/medium-shot-smiley-tattoo-artist-indoors.jpg",
+      "fotos": [
+        "/json/Julio/imgs/Old-School-Tattoos-The-Ink-Factory-5.jpg",
+        "imgs/hand-neo-1160x1431.jpg",
+        "imgs/gypsy-oldschool-tattoo.jpg",
+        "https://img.freepik.com/fotos-gratis/foto-de-foco-seletivo-da-mao-de-um-tatuador-usando-uma-luva-preta-e-segurando-uma-arma-de-tatuagem_181624-21033.jpg?t=st=1719055098~exp=1719058698~hmac=bac10f9e06eca6475d4c1849399e6b8abc5f8f7e11559a5014f93fde3225fb4f&w=360"
+      ]
+    }
+  ]
+} 
+# Instruções de acesso 
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+# Página de cadastro (RF-04) 
+Alunos responsável: Kelvin Lemos 
+Link do código: http:/// 
+A página apresentada é necessária para que um novo usuário crie uma conta no site e possa interagir com outras funcionalidades do site, como avaliar os artistas. Os dados dos usuários são armazenados no JSONServer e no LocalStorage de cada usuário, para que seus dados estejam sempre guardados nos computadores pessoais de cada um e os dados possuem estruturas baseadas em JSON. Um exemplo da tela é apresentado na figura.  
+ 
+ 
+# Requisitos atendidos 
+RF - 04 -  O site deve apresentar uma página de cadastro para o usuário.
+ 
+# Artefatos da funcionalidade 
+index.html 
+script.js
+style.css
+homemtatuado.jpg
+logo.jpg
+ 
+# Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "",
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "estudio": "",
+      "nascimento": "",
+      "tipo": "",
+     }
+  ]
+}
+
+
+# Instruções de acesso 
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+# Tela de login (RF-04) 
+Alunos responsável: Julio Ávila 
+Link do código: http:/// 
+A tela apresentada é onde o usuário que já possui cadastro no site informa os dados necessários para entrar na sua conta. Os dados são armazenados no JSONServer e no LocalStorage com estruturas baseadas em JSON. Um exemplo da tela é apresentado na figura.  
+ 
+ 
+# Requisitos atendidos 
+RF - 04 -  O usuário deve poder fazer login no sistema usando seu nome de usuário e senha.
+ 
+# Artefatos da funcionalidade 
+index.html 
+script.js
+style.css
+mulhertatuada.jpg
+logo.jpg
+ 
+# Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "",
+      "email": "",
+      "senha": ""
+  ]
+} 
+
+# Instruções de acesso 
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+# Página de perfil (RF-08, RF-09, RF-10, RF-13) 
+Alunos responsáveis: Pedro Mendes e Ana Giulia
+Link do código: http:/// 
+A tela apresentada é onde o artista coloca e edita todas as suas informações e atualiza o seu portfólio, tendo a opção também de deletar seu perfil e escolher para quais categorias de estilo deseja entrar. Os dados são armazenados no JSONServer com estruturas baseadas em JSON. Um exemplo da tela é apresentado na figura.  
+ 
+ 
+# Requisitos atendidos 
+RF-  08 -  O site deve permitir o tatuador a carregar imagens de determinada categoria. 
+RF - 09 - O site permite ao cliente e ao artista adicionar uma foto de perfil.
+RF - 10 - O site permite que o cliente consiga abrir e baixar fotos localmente.
+RF - 13 - O site deve permitir que o usuário exclua o seu perfil.
+
+# Artefatos da funcionalidade 
+index.html 
+script.js
+style.css
+logo.png
+ 
+# Estrutura de Dados 
+{
+  "user": [
+    {
+      "id": "",
+      "bio": "",
+      "end": "",
+      "exp": "",
+      "whats": "",
+      "insta": "",
+      "tipo": "",
+      "categoria": "",
+      "estrelas": [],
+      "fotoperfil": "",
+      "fotos": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
+
+
+# Instruções de acesso 
+Faça o download do arquivo do projeto (ZIP);
+Descompacte o arquivo em uma pasta específica; 
+Abra o Visual Studio Code e execute o Live Server;
+
+
+# Avaliação da Solução 
+O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados. 
+
+# 6.1 Plano de Testes de Software 
+# Requisitos para realização do teste: 
+Site publicado na Internet 
+Navegador da Internet - Chrome, Firefox ou Edge 
+Conectividade de Internet para acesso às plataformas (APIs) 
+ 
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir. 
+ 
+# Caso de Teste 
+  CT-01 - Cadastro e login
+# Requisitos Associados 
+ RF-04 - O site deve apresentar uma página de cadastro para o usuário.
+
+  RF-05- O usuário deve poder fazer login no sistema usando seu nome de usuário e senha.
+
+
+# Objetivo do Teste 
+ Cadastrar as informações de um novo usuário em inserir no JSONserver..
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Abrir a página de login e clicar em Cadastre-se
+  4) Inserir as informações necessárias 
+# Critérios de Êxito 
+As informações serão salvas no JSONserver e o usuário será direcionado a página de login, um alerta aparecerá para o usuário informando o sucesso no cadastro
+O usuário conseguirá acessar o Perfil caso tenha feito o login corretamente 
+
+
+
+ 
+ 
+
+
+
+
+
+
+# Caso de Teste 
+  CT-02 - Visualizar menu e categorias com fotos
+# Requisitos Associados 
+ RF-01 - O site deve apresentar, para cada categoria, imagens      correspondentes ao assunto apresentado.
+   RF-03 - O site deve oferecer um menu adicional que permita ao usuário visualizar as categorias.
+
+
+# Objetivo do Teste 
+Verificar se as categorias estão sendo apresentadas completamente na página de menu
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Visualizar a página de menu
+  4) Clicar em uma categoria
+# Critérios de Êxito 
+ A página deve menu deve apresentar as categorias e ao clicar em uma categoria o usuário será redirecionado para a página da categoria escolhida onde encontrará perfis de tatuadores da categoria em questão.
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+# Caso de Teste 
+  CT-03 - Visualizar informações do artista
+# Requisitos Associados 
+  RF-02 -O site deve permitir ao usuário visualizar todas as informações do artista, como endereço
+ RF-07 -O site deve permitir visualizar os links para acessar as outras redes dos artistas
+# Objetivo do Teste 
+Verificar se as informações do artista estão sendo apresentadas completamente na página de portfólio dele
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site 
+  4) Acessar a categoria desejada 
+  5) Acessar o artista desejado 
+# Critérios de Êxito 
+ A página de portfólio do artista deve apresentar as informações do artista como redes sociais, fotos postadas, biografia, endereço e outras informações.
+
+
+
+
+
+
+
+
+
+# Caso de Teste 
+  CT-04 - Postagem de imagens
+# Requisitos Associados 
+ RF-08 - O site deve permitir o tatuador a carregar imagens de determinada categoria.
+# Objetivo do Teste 
+Verificar se é possível o artista postar fotos para a categoria escolhida
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Ir para a página de perfil do tatuador
+  5) Clicar em adicionar foto e carregar a URL
+# Critérios de Êxito 
+Ao clicar em SALVAR a foto será adicionada ao JSONserver e irá aparecer na página de perfil como já postada, além de um alerta informando que a foto foi postada com sucesso.
+
+
+
+
+
+
+
+# Caso de Teste 
+  CT-05 - Avaliação de usuário 
+# Requisitos Associados 
+ RF-11 - O site deve permitir que usuários possam avaliar os artistas.
+RF-12 - O site deve exibir a avaliação do usuário sobre determinado artista.
+
+
+# Objetivo do Teste 
+Verificar se a avaliação está funcionando e se está aparecendo para o usuário
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Visualizar a página de portfólio do artista
+  5) Colocar a quantidade de estrelas que deseja avaliar o artista
+# Critérios de Êxito 
+Ao avaliar o artista, a média de avaliações irá aparecer na página de 
+portfólio do mesmo.
+
+
+
+
+
+
+
+# Caso de Teste 
+  CT-06 - Informações de suporte
+# Requisitos Associados 
+  RF-06 - O site deve permitir visualizar as informações de contatos do mantenedor do site
+# Objetivo do Teste 
+Verificar se as informações para suporte com o mantenedor estão funcionando
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Clicar em Suporte
+# Critérios de Êxito 
+O usuário será direcionado para a página da home onde encontrar as informações necessárias para contactar os mantenedores.
+
+ 
+
+
+
+
+
+
+# Caso de Teste 
+  CT-07 - Adicionar foto de perfil
+# Requisitos Associados 
+RF-09 - O site permite ao cliente e ao artista adicionar uma foto de perfil.
+# Objetivo do Teste 
+Verificar se a adição de foto de perfil está funcionando.
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Visualizar a página de perfil
+  5) Clicar em mudar foto de perfil
+# Critérios de Êxito 
+Ao adicionar a URL da foto que deseja e em seguida clicar em salvar a foto irá aparecer no perfil.
+
+
+
+
+
+
+
+# Caso de Teste 
+  CT-08 - Deletar o perfil
+# Requisitos Associados 
+RF-7 - O site deve permitir que o usuário exclua o seu perfil
+# Objetivo do Teste 
+Verificar se a função de deletar o perfil está funcionando.
+Passos 
+  1) Acessar o Navegador 
+  2) Informar o endereço do Site 
+  3) Fazer login no site
+  4) Visualizar a página de perfil
+  5) Clicar em Deletar Perfil
+# Critérios de Êxito 
+Ao clicar em deletar perfil o usuário receberá uma confirmação perguntando se o clique foi intencional, e ao clicar em "CONFIRMAR" o usuário será direcionado novamente a página de login e suas informações serão apagadas do JSONserver e do site.
+
